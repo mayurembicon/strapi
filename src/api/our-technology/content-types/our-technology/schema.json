@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_technologies",
+  "info": {
+    "singularName": "our-technology",
+    "pluralName": "our-technologies",
+    "displayName": "Our Technology"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "web_developments",
+  "info": {
+    "singularName": "web-development",
+    "pluralName": "web-developments",
+    "displayName": "Web Development"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SubTitle": {
+      "type": "richtext"
+    },
+    "SubDescripation": {
+      "type": "richtext"
+    },
+    "Image1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "react_native_key_expertises",
+  "info": {
+    "singularName": "react-native-key-expertise",
+    "pluralName": "react-native-key-expertises",
+    "displayName": "React Native Key Expertise"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Descipation": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

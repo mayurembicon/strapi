@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "get_in_touches",
+  "info": {
+    "singularName": "get-in-touch",
+    "pluralName": "get-in-touches",
+    "displayName": "Get In Touch"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SubTitle": {
+      "type": "enumeration",
+      "enum": [
+        "email",
+        "phone no"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ar_development_services",
+  "info": {
+    "singularName": "ar-development-service",
+    "pluralName": "ar-development-services",
+    "displayName": "AR Development Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext",
+      "required": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

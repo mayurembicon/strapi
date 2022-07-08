@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "we_are_grows",
+  "info": {
+    "singularName": "we-are-grow",
+    "pluralName": "we-are-grows",
+    "displayName": "We Are Grow",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext",
+      "required": true
+    },
+    "SubTitle": {
+      "type": "richtext",
+      "required": true
+    },
+    "Descipation": {
+      "type": "richtext",
+      "required": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

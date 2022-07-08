@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "mobile_game_developments",
+  "info": {
+    "singularName": "mobile-game-development",
+    "pluralName": "mobile-game-developments",
+    "displayName": "Mobile Game Development"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "different_types_of_wire_framings",
+  "info": {
+    "singularName": "different-types-of-wire-framing",
+    "pluralName": "different-types-of-wire-framings",
+    "displayName": "Different Types Of Wire Framing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

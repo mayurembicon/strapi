@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "game_ui_and_ux_development_contact_uses",
+  "info": {
+    "singularName": "game-ui-and-ux-development-contact-us",
+    "pluralName": "game-ui-and-ux-development-contact-uses",
+    "displayName": "Game UI & UX Development Contact Us"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "ContactNo": {
+      "type": "integer"
+    },
+    "WhatsappNo": {
+      "type": "integer"
+    }
+  }
+}

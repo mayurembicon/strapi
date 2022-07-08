@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "react_js_development_services",
+  "info": {
+    "singularName": "react-js-development-service",
+    "pluralName": "react-js-development-services",
+    "displayName": "React Js Development Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

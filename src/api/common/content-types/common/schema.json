@@ -1,0 +1,133 @@
+{
+  "kind": "singleType",
+  "collectionName": "commons",
+  "info": {
+    "singularName": "common",
+    "pluralName": "commons",
+    "displayName": "Common",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "weAreHiringTitle": {
+      "type": "richtext"
+    },
+    "WeAreHiringDescription": {
+      "type": "richtext"
+    },
+    "LifeAtGrowDescription": {
+      "type": "richtext"
+    },
+    "ProcessOfInterViewDescription": {
+      "type": "richtext"
+    },
+    "TransparencyDescription": {
+      "type": "richtext"
+    },
+    "FestivalAtGrowDescription": {
+      "type": "richtext"
+    },
+    "ContactUsTitle": {
+      "type": "richtext"
+    },
+    "ContactUsDescription": {
+      "type": "richtext"
+    },
+    "WeCanDoDescription": {
+      "type": "richtext"
+    },
+    "YourDreamsTitle": {
+      "type": "richtext"
+    },
+    "YourDreamsDescription": {
+      "type": "richtext"
+    },
+    "AndroidAppDreamsTitle": {
+      "type": "richtext"
+    },
+    "AndroidAppDreamsDescription": {
+      "type": "richtext"
+    },
+    "OurKeyExpertiseDescription": {
+      "type": "richtext"
+    },
+    "IndustriesDescription": {
+      "type": "richtext"
+    },
+    "ReactNativeKeyExpertiseDescription": {
+      "type": "richtext"
+    },
+    "DataAnalyticsDescription": {
+      "type": "richtext"
+    },
+    "BusinessIntelligenceDescription": {
+      "type": "richtext"
+    },
+    "EnterpriseDataManagementDescription": {
+      "type": "richtext"
+    },
+    "DataVisualizationDescription": {
+      "type": "richtext"
+    },
+    "DataVisualizationDevelopmentProcessDescription": {
+      "type": "richtext"
+    },
+    "DataVisualizationIndustriesDescription": {
+      "type": "richtext"
+    },
+    "BusinessIntelligenceKeyExpertiseDescription": {
+      "type": "richtext"
+    },
+    "BusinessIntelligenceDevelopmentProcessDescription": {
+      "type": "richtext"
+    },
+    "BusinessIntelligenceIndustriesWeServeDescription": {
+      "type": "richtext"
+    },
+    "DigitalMarketingExploreServiceDescipation": {
+      "type": "richtext"
+    },
+    "WhyWorkWithUsDescipation": {
+      "type": "richtext"
+    },
+    "AppStoreOptimizationExploreServiceDescipation": {
+      "type": "richtext"
+    },
+    "AppStoreOptimizationWhyWorkWithUsDescipation": {
+      "type": "richtext"
+    },
+    "EmailMarketingExploreServiceDescription": {
+      "type": "richtext"
+    },
+    "EmailMarketingWhyWorkWithUsDescription": {
+      "type": "richtext"
+    },
+    "SearchEngineOptimizationExploreServiceDescription": {
+      "type": "richtext"
+    },
+    "SearchEngineOptimizationWhyWorkWithUsDescription": {
+      "type": "richtext"
+    },
+    "WebDevelopmentProcessDescription": {
+      "type": "richtext"
+    },
+    "ResearchAndDesigningWhatWeCanDoDescription": {
+      "type": "richtext"
+    },
+    "ResearchAndDesigningDevelopmentProcessDescription": {
+      "type": "richtext"
+    },
+    "UIAndUXDevelopmentGrowSolutionDescription": {
+      "type": "richtext"
+    },
+    "DifferentTypesOfWireFramingDescription": {
+      "type": "richtext"
+    },
+    "GameUIAndUXDevelopmentProcessDescription": {
+      "type": "richtext"
+    }
+  }
+}

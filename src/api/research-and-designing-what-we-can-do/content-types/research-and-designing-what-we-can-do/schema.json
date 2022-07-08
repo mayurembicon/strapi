@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "research_and_designing_what_we_can_dos",
+  "info": {
+    "singularName": "research-and-designing-what-we-can-do",
+    "pluralName": "research-and-designing-what-we-can-dos",
+    "displayName": "Research & Designing What We Can Do"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

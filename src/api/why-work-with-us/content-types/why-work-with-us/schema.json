@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "why_work_with_uses",
+  "info": {
+    "singularName": "why-work-with-us",
+    "pluralName": "why-work-with-uses",
+    "displayName": "Why Work With Us"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Position": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "digital_and_network_marketing_contact_uses",
+  "info": {
+    "singularName": "digital-and-network-marketing-contact-us",
+    "pluralName": "digital-and-network-marketing-contact-uses",
+    "displayName": "Digital & Network Marketing Contact Us"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "ContactNo": {
+      "type": "integer"
+    },
+    "WhatsappNo": {
+      "type": "integer"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

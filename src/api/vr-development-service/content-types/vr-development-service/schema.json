@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vr_development_services",
+  "info": {
+    "singularName": "vr-development-service",
+    "pluralName": "vr-development-services",
+    "displayName": "VR Development Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext",
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

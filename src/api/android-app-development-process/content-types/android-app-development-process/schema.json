@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "android_app_development_processes",
+  "info": {
+    "singularName": "android-app-development-process",
+    "pluralName": "android-app-development-processes",
+    "displayName": "Android App Development Process"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Descipation": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

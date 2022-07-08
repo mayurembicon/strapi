@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "festival_at_grows",
+  "info": {
+    "singularName": "festival-at-grow",
+    "pluralName": "festival-at-grows",
+    "displayName": "Festival At Grow"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "react_js_development_contact_uses",
+  "info": {
+    "singularName": "react-js-development-contact-us",
+    "pluralName": "react-js-development-contact-uses",
+    "displayName": "React Js Development Contact Us"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

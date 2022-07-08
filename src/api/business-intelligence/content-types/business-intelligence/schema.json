@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "business_intelligences",
+  "info": {
+    "singularName": "business-intelligence",
+    "pluralName": "business-intelligences",
+    "displayName": "Business Intelligence"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Descipation": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

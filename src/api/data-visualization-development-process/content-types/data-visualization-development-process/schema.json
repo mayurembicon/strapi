@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_visualization_development_processes",
+  "info": {
+    "singularName": "data-visualization-development-process",
+    "pluralName": "data-visualization-development-processes",
+    "displayName": "Data Visualization Development Process"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Descripation": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "app_store_optimization_explore_services",
+  "info": {
+    "singularName": "app-store-optimization-explore-service",
+    "pluralName": "app-store-optimization-explore-services",
+    "displayName": "App Store Optimization Explore Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

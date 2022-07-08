@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_vision_and_misssions",
+  "info": {
+    "singularName": "our-vision-and-misssion",
+    "pluralName": "our-vision-and-misssions",
+    "displayName": "Our Vision & Misssion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "OurMission",
+        "OurVision",
+        "OurCommitement",
+        "CoreValues"
+      ]
+    },
+    "Descipation": {
+      "type": "richtext"
+    }
+  }
+}

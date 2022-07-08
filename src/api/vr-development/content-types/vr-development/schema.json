@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "vr_developments",
+  "info": {
+    "singularName": "vr-development",
+    "pluralName": "vr-developments",
+    "displayName": "VR Development"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SubTitle": {
+      "type": "richtext"
+    },
+    "SubDescripation": {
+      "type": "richtext"
+    },
+    "Image1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

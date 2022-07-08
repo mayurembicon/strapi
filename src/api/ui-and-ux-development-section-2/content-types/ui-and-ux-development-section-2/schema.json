@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "ui_and_ux_development_section_2s",
+  "info": {
+    "singularName": "ui-and-ux-development-section-2",
+    "pluralName": "ui-and-ux-development-section-2s",
+    "displayName": "UI & UX Development Section 2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

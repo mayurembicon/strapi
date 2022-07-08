@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "hero_sections",
+  "info": {
+    "singularName": "hero-section",
+    "pluralName": "hero-sections",
+    "displayName": "Hero Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "Descipation": {
+      "type": "richtext",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "mobile_app_developments",
+  "info": {
+    "singularName": "mobile-app-development",
+    "pluralName": "mobile-app-developments",
+    "displayName": "Mobile App Development"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Descipation": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SubTitle": {
+      "type": "richtext"
+    },
+    "SubDescipation": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "email_marketing_development_processes",
+  "info": {
+    "singularName": "email-marketing-development-process",
+    "pluralName": "email-marketing-development-processes",
+    "displayName": "Email Marketing Development Process"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SubTitle": {
+      "type": "richtext"
+    },
+    "SubDescripation": {
+      "type": "richtext"
+    },
+    "Image1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

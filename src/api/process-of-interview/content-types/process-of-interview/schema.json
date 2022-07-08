@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "process_of_interviews",
+  "info": {
+    "singularName": "process-of-interview",
+    "pluralName": "process-of-interviews",
+    "displayName": "Process Of Interview",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext",
+      "required": true
+    },
+    "Descipation": {
+      "type": "richtext",
+      "required": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

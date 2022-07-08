@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "digital_and_network_marketings",
+  "info": {
+    "singularName": "digital-and-network-marketing",
+    "pluralName": "digital-and-network-marketings",
+    "displayName": "Digital & Network Marketing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "SubTitle": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SubTitle1": {
+      "type": "richtext"
+    },
+    "SubDescripation1": {
+      "type": "richtext"
+    },
+    "Image1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

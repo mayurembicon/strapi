@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "research_and_designing_our_creative_protfolios",
+  "info": {
+    "singularName": "research-and-designing-our-creative-protfolio",
+    "pluralName": "research-and-designing-our-creative-protfolios",
+    "displayName": "Research & Designing Our Creative Protfolio"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

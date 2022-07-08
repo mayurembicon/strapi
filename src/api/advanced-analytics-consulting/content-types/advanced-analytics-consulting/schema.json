@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "advanced_analytics_consultings",
+  "info": {
+    "singularName": "advanced-analytics-consulting",
+    "pluralName": "advanced-analytics-consultings",
+    "displayName": "Advanced Analytics Consulting"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Descripation": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

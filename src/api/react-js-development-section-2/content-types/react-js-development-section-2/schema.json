@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "react_js_development_section_2s",
+  "info": {
+    "singularName": "react-js-development-section-2",
+    "pluralName": "react-js-development-section-2s",
+    "displayName": "React Js Development Section 2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

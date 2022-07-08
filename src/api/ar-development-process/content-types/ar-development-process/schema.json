@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "ar_development_processes",
+  "info": {
+    "singularName": "ar-development-process",
+    "pluralName": "ar-development-processes",
+    "displayName": "AR Development Process"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

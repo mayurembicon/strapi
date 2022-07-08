@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "search_engine_optimizations",
+  "info": {
+    "singularName": "search-engine-optimization",
+    "pluralName": "search-engine-optimizations",
+    "displayName": "Search Engine Optimization"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "SubTitle": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SubTitle1": {
+      "type": "richtext"
+    },
+    "SubDescripation1": {
+      "type": "richtext"
+    },
+    "Image1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

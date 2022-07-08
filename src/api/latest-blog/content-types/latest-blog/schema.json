@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "latest_blogs",
+  "info": {
+    "singularName": "latest-blog",
+    "pluralName": "latest-blogs",
+    "displayName": "Latest Blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Date": {
+      "type": "date",
+      "required": true
+    },
+    "Title": {
+      "type": "richtext",
+      "required": true
+    },
+    "Descipation": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

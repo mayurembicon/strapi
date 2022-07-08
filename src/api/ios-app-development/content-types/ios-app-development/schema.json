@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "ios_app_developments",
+  "info": {
+    "singularName": "ios-app-development",
+    "pluralName": "ios-app-developments",
+    "displayName": "IOS App Development"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Descipation": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SubTitle": {
+      "type": "richtext"
+    },
+    "SubDescipation": {
+      "type": "richtext"
+    }
+  }
+}

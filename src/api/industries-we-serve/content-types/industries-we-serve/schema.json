@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industries_we_serves",
+  "info": {
+    "singularName": "industries-we-serve",
+    "pluralName": "industries-we-serves",
+    "displayName": "Industries We Serve"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "hybrid_app_development_processes",
+  "info": {
+    "singularName": "hybrid-app-development-process",
+    "pluralName": "hybrid-app-development-processes",
+    "displayName": "Hybrid App Development Process"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Descipation": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

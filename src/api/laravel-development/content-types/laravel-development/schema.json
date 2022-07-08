@@ -1,0 +1,76 @@
+{
+  "kind": "singleType",
+  "collectionName": "laravel_developments",
+  "info": {
+    "singularName": "laravel-development",
+    "pluralName": "laravel-developments",
+    "displayName": "Laravel Development "
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SubTitle1": {
+      "type": "richtext"
+    },
+    "SubDescripation1": {
+      "type": "richtext"
+    },
+    "Image1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SubTitle2": {
+      "type": "richtext"
+    },
+    "Image2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "SubTitle3": {
+      "type": "richtext"
+    },
+    "SubDescription3": {
+      "type": "richtext"
+    },
+    "Image3": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

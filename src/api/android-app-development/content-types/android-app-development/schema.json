@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "android_app_developments",
+  "info": {
+    "singularName": "android-app-development",
+    "pluralName": "android-app-developments",
+    "displayName": "Android App Development"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Descipation": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SubTitle": {
+      "type": "richtext"
+    },
+    "SubDescipation": {
+      "type": "richtext"
+    }
+  }
+}

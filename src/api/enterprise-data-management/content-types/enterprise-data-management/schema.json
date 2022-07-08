@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "enterprise_data_managements",
+  "info": {
+    "singularName": "enterprise-data-management",
+    "pluralName": "enterprise-data-managements",
+    "displayName": "Enterprise Data Management"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Descripation": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

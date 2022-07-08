@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transparencies",
+  "info": {
+    "singularName": "transparency",
+    "pluralName": "transparencies",
+    "displayName": "Transparency"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Descipation": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

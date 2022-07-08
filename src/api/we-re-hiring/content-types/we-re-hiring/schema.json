@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "we_re_hirings",
+  "info": {
+    "singularName": "we-re-hiring",
+    "pluralName": "we-re-hirings",
+    "displayName": "We 're Hiring"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "RequiredExperience": {
+      "type": "text",
+      "required": true
+    },
+    "NumberOfPosition": {
+      "type": "integer",
+      "required": true
+    },
+    "JobLocation": {
+      "type": "string",
+      "required": true
+    },
+    "JobType": {
+      "type": "string"
+    }
+  }
+}
