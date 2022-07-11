@@ -4,7 +4,8 @@
   "info": {
     "singularName": "laravel-development",
     "pluralName": "laravel-developments",
-    "displayName": "Laravel Development "
+    "displayName": "Laravel Development ",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,14 +19,15 @@
       "type": "richtext"
     },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "SubTitle1": {
       "type": "richtext"
@@ -34,27 +36,29 @@
       "type": "richtext"
     },
     "Image1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "SubTitle2": {
       "type": "richtext"
     },
     "Image2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "SubTitle3": {
       "type": "richtext"
@@ -63,14 +67,15 @@
       "type": "richtext"
     },
     "Image3": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

@@ -1,10 +1,11 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "node_js_development_processes",
   "info": {
     "singularName": "node-js-development-process",
     "pluralName": "node-js-development-processes",
-    "displayName": "NodeJs Development Process"
+    "displayName": "NodeJs Development Process",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,14 +19,15 @@
       "type": "richtext"
     },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
