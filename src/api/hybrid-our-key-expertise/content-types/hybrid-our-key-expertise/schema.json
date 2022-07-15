@@ -1,10 +1,11 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "hybrid_our_key_expertises",
   "info": {
     "singularName": "hybrid-our-key-expertise",
     "pluralName": "hybrid-our-key-expertises",
-    "displayName": "Hybrid Our Key Expertise"
+    "displayName": "Hybrid Our Key Expertise",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,14 +19,15 @@
       "type": "richtext"
     },
     "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }

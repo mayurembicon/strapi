@@ -4,7 +4,8 @@
   "info": {
     "singularName": "search-engine-optimization-contact-us",
     "pluralName": "search-engine-optimization-contact-uses",
-    "displayName": "Search Engine Optimization Contact Us"
+    "displayName": "Search Engine Optimization Contact Us",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,16 @@
     },
     "WhatsappNo": {
       "type": "integer"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
