@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_team_of_trailblazers",
+  "info": {
+    "singularName": "our-team-of-trailblazer",
+    "pluralName": "our-team-of-trailblazers",
+    "displayName": "Our Team Of Trailblazer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "richtext"
+    },
+    "Position": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

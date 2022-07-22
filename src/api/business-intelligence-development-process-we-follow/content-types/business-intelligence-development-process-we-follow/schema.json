@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "business_intelligence_development_process_we_follows",
+  "info": {
+    "singularName": "business-intelligence-development-process-we-follow",
+    "pluralName": "business-intelligence-development-process-we-follows",
+    "displayName": "Business Intelligence Development Process We Follow"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

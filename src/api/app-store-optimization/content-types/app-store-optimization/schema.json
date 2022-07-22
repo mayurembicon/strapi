@@ -35,10 +35,63 @@
     "SubTitle1": {
       "type": "richtext"
     },
-    "SubDescripation1": {
+    "SubDescription1": {
       "type": "richtext"
     },
     "Image1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "OurDevelopmentProcessTitle": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessDescription": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SubTitle2": {
+      "type": "richtext"
+    },
+    "SubDescription2": {
+      "type": "richtext"
+    },
+    "Image2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ContactUsTitle": {
+      "type": "richtext"
+    },
+    "ContactUsNo": {
+      "type": "biginteger"
+    },
+    "WhatsAppNo": {
+      "type": "biginteger"
+    },
+    "ContactUsImage": {
       "allowedTypes": [
         "images",
         "files",

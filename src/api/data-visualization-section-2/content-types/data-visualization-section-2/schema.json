@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_visualization_section_2s",
+  "info": {
+    "singularName": "data-visualization-section-2",
+    "pluralName": "data-visualization-section-2s",
+    "displayName": "Data Visualization Section 2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

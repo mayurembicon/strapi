@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "career_page_we_re_hirings",
+  "info": {
+    "singularName": "career-page-we-re-hiring",
+    "pluralName": "career-page-we-re-hirings",
+    "displayName": "Career Page We're Hiring"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Experience": {
+      "type": "richtext"
+    },
+    "Position": {
+      "type": "integer"
+    },
+    "Location": {
+      "type": "richtext"
+    },
+    "Type": {
+      "type": "richtext"
+    }
+  }
+}

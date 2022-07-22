@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "two_and_three_de_services",
+  "info": {
+    "singularName": "two-and-three-de-service",
+    "pluralName": "two-and-three-de-services",
+    "displayName": "Two And Three De Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

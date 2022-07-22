@@ -4,7 +4,8 @@
   "info": {
     "singularName": "ios-app-development",
     "pluralName": "ios-app-developments",
-    "displayName": "IOS App Development"
+    "displayName": "IOS App Development",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,10 +15,59 @@
     "Title": {
       "type": "richtext"
     },
-    "Descipation": {
+    "SubTitle": {
+      "type": "richtext"
+    },
+    "Description": {
       "type": "richtext"
     },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SubTitle1": {
+      "type": "richtext"
+    },
+    "SubDescription1": {
+      "type": "richtext"
+    },
+    "SubTitle2": {
+      "type": "richtext"
+    },
+    "SubDescription2": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessTitle": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessDescription": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ReasonsToChooseTitle": {
+      "type": "richtext"
+    },
+    "RessonsToChooseDescription": {
+      "type": "richtext"
+    },
+    "Image2": {
       "allowedTypes": [
         "images",
         "files",
@@ -26,12 +76,6 @@
       ],
       "type": "media",
       "multiple": false
-    },
-    "SubTitle": {
-      "type": "richtext"
-    },
-    "SubDescipation": {
-      "type": "richtext"
     }
   }
 }

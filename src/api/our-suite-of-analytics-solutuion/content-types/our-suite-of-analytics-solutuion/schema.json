@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_suite_of_analytics_solutuions",
+  "info": {
+    "singularName": "our-suite-of-analytics-solutuion",
+    "pluralName": "our-suite-of-analytics-solutuions",
+    "displayName": "Our Suite of Analytics Solutuion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

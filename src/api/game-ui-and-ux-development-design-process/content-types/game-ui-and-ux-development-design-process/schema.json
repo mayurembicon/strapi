@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "game_ui_and_ux_development_design_processes",
+  "info": {
+    "singularName": "game-ui-and-ux-development-design-process",
+    "pluralName": "game-ui-and-ux-development-design-processes",
+    "displayName": " Game Ui & Ux Development Design Process"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

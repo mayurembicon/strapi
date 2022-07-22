@@ -1,5 +1,5 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "ui_and_ux_development_section_2s",
   "info": {
     "singularName": "ui-and-ux-development-section-2",
@@ -12,9 +12,6 @@
   "pluginOptions": {},
   "attributes": {
     "Title": {
-      "type": "richtext"
-    },
-    "Description": {
       "type": "richtext"
     },
     "Image": {

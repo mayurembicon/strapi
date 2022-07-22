@@ -1,5 +1,5 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "business_intelligences",
   "info": {
     "singularName": "business-intelligence",
@@ -14,10 +14,67 @@
     "Title": {
       "type": "richtext"
     },
-    "Descipation": {
+    "SubTitle": {
+      "type": "richtext"
+    },
+    "Description": {
       "type": "richtext"
     },
     "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SubTitle1": {
+      "type": "richtext"
+    },
+    "SubDescription1": {
+      "type": "richtext"
+    },
+    "Image1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SubTitle2": {
+      "type": "richtext"
+    },
+    "SubDescription2": {
+      "type": "richtext"
+    },
+    "CallUs": {
+      "type": "biginteger"
+    },
+    "Image2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SubTitle3": {
+      "type": "richtext"
+    },
+    "ContactNo": {
+      "type": "biginteger"
+    },
+    "WhatsappNo": {
+      "type": "biginteger"
+    },
+    "Image3": {
       "allowedTypes": [
         "images",
         "files",

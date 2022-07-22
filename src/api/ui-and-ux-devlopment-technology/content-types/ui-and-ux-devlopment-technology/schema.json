@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "ui_and_ux_devlopment_technologies",
+  "info": {
+    "singularName": "ui-and-ux-devlopment-technology",
+    "pluralName": "ui-and-ux-devlopment-technologies",
+    "displayName": "Ui & Ux Devlopment Technology"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

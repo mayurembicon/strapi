@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inquiries",
+  "info": {
+    "singularName": "inquiry",
+    "pluralName": "inquiries",
+    "displayName": "Inquiry"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "richtext"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "ContactNo": {
+      "type": "biginteger"
+    },
+    "Skype": {
+      "type": "richtext"
+    },
+    "Subject": {
+      "type": "richtext"
+    },
+    "InterestedIn": {
+      "type": "richtext"
+    },
+    "Message": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "features_lists",
+  "info": {
+    "singularName": "features-list",
+    "pluralName": "features-lists",
+    "displayName": "Features List"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "laravel_development_payment_gate_ways",
+  "info": {
+    "singularName": "laravel-development-payment-gate-way",
+    "pluralName": "laravel-development-payment-gate-ways",
+    "displayName": "Laravel Development Payment GateWay"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

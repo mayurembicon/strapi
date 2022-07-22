@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hybrid_app_development_industries_we_serves",
+  "info": {
+    "singularName": "hybrid-app-development-industries-we-serve",
+    "pluralName": "hybrid-app-development-industries-we-serves",
+    "displayName": "Hybrid App Development Industries We Serve"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

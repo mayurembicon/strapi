@@ -1,0 +1,106 @@
+{
+  "kind": "singleType",
+  "collectionName": "digital_network_marketings",
+  "info": {
+    "singularName": "digital-network-marketing",
+    "pluralName": "digital-network-marketings",
+    "displayName": "Digital Network Marketing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "SubTitle": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SubTitle1": {
+      "type": "richtext"
+    },
+    "SubDescription1": {
+      "type": "richtext"
+    },
+    "Image1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SubTitle2": {
+      "type": "richtext"
+    },
+    "SubDescription2": {
+      "type": "richtext"
+    },
+    "Image2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ContactUsTitle": {
+      "type": "richtext"
+    },
+    "ContactNo": {
+      "type": "biginteger"
+    },
+    "WhatsAppNo": {
+      "type": "biginteger"
+    },
+    "ContactUsImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "OurDevelopmentProcessTitle": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessDescription": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

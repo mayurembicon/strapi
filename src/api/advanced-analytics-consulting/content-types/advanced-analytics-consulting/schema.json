@@ -4,7 +4,8 @@
   "info": {
     "singularName": "advanced-analytics-consulting",
     "pluralName": "advanced-analytics-consultings",
-    "displayName": "Advanced Analytics Consulting"
+    "displayName": "Advanced Analytics Consulting",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,10 +15,33 @@
     "Title": {
       "type": "richtext"
     },
-    "Descripation": {
+    "SubTitle": {
+      "type": "richtext"
+    },
+    "Description": {
       "type": "richtext"
     },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ContactUsTitle": {
+      "type": "richtext"
+    },
+    "ContactNo": {
+      "type": "biginteger"
+    },
+    "WhatsAppNo": {
+      "type": "biginteger"
+    },
+    "ContactUsImage": {
       "allowedTypes": [
         "images",
         "files",

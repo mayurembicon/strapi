@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "career_page_we_are_hiring_heroes",
+  "info": {
+    "singularName": "career-page-we-are-hiring-hero",
+    "pluralName": "career-page-we-are-hiring-heroes",
+    "displayName": "Career Page We Are Hiring Hero"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

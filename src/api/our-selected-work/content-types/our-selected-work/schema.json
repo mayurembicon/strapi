@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_selected_works",
+  "info": {
+    "singularName": "our-selected-work",
+    "pluralName": "our-selected-works",
+    "displayName": " Our Selected Work"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

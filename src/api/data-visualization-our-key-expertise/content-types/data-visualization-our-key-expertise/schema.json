@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_visualization_our_key_expertises",
+  "info": {
+    "singularName": "data-visualization-our-key-expertise",
+    "pluralName": "data-visualization-our-key-expertises",
+    "displayName": "Data Visualization Our Key Expertise"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

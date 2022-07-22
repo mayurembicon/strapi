@@ -4,8 +4,7 @@
   "info": {
     "singularName": "process-of-interview",
     "pluralName": "process-of-interviews",
-    "displayName": "Process Of Interview",
-    "description": ""
+    "displayName": "Process of Interview"
   },
   "options": {
     "draftAndPublish": true
@@ -13,23 +12,20 @@
   "pluginOptions": {},
   "attributes": {
     "Title": {
-      "type": "richtext",
-      "required": true
+      "type": "richtext"
     },
-    "Descipation": {
-      "type": "richtext",
-      "required": true
+    "Description": {
+      "type": "richtext"
     },
     "Image": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

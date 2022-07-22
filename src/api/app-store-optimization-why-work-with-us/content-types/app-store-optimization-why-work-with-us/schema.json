@@ -4,7 +4,7 @@
   "info": {
     "singularName": "app-store-optimization-why-work-with-us",
     "pluralName": "app-store-optimization-why-work-with-uses",
-    "displayName": "App Store Optimization Why Work With Us"
+    "displayName": "App Store Optimization Why Work With Us "
   },
   "options": {
     "draftAndPublish": true
@@ -14,11 +14,11 @@
     "Title": {
       "type": "richtext"
     },
+    "Position": {
+      "type": "biginteger"
+    },
     "Description": {
       "type": "richtext"
-    },
-    "Position": {
-      "type": "integer"
     }
   }
 }

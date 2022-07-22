@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "all_keyboards",
+  "info": {
+    "singularName": "all-keyboard",
+    "pluralName": "all-keyboards",
+    "displayName": "All Keyboard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

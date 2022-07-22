@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wire_framing_types_of_wire_framing_tools",
+  "info": {
+    "singularName": "wire-framing-types-of-wire-framing-tool",
+    "pluralName": "wire-framing-types-of-wire-framing-tools",
+    "displayName": "Wire Framing Types Of WireFraming Tool"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

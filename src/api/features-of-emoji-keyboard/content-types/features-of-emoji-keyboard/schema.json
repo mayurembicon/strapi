@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "features_of_emoji_keyboards",
+  "info": {
+    "singularName": "features-of-emoji-keyboard",
+    "pluralName": "features-of-emoji-keyboards",
+    "displayName": "Features of Emoji Keyboard"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

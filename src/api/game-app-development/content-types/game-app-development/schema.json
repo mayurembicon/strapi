@@ -4,8 +4,7 @@
   "info": {
     "singularName": "game-app-development",
     "pluralName": "game-app-developments",
-    "displayName": "Game App Development",
-    "description": ""
+    "displayName": "Game App Development"
   },
   "options": {
     "draftAndPublish": true
@@ -15,27 +14,42 @@
     "Title": {
       "type": "richtext"
     },
+    "SubTitle": {
+      "type": "richtext"
+    },
     "Description": {
       "type": "richtext"
     },
     "Image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
-    "SubTitle": {
-      "type": "richtext"
-    },
-    "SubDescripation": {
+    "SubTitle1": {
       "type": "richtext"
     },
     "Image1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "OurDevelopmentProcessTitle": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessDescription": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessImage": {
       "allowedTypes": [
         "images",
         "files",

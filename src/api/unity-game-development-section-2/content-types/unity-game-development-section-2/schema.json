@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "unity_game_development_section_2s",
+  "info": {
+    "singularName": "unity-game-development-section-2",
+    "pluralName": "unity-game-development-section-2s",
+    "displayName": "Unity Game Development Section 2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "career_our_reviews",
+  "info": {
+    "singularName": "career-our-review",
+    "pluralName": "career-our-reviews",
+    "displayName": "Career Our Review"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Review": {
+      "type": "integer"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

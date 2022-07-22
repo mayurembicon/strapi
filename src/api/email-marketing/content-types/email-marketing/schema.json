@@ -4,7 +4,7 @@
   "info": {
     "singularName": "email-marketing",
     "pluralName": "email-marketings",
-    "displayName": "Email Marketing "
+    "displayName": "Email Marketing"
   },
   "options": {
     "draftAndPublish": true
@@ -12,6 +12,9 @@
   "pluginOptions": {},
   "attributes": {
     "Title": {
+      "type": "richtext"
+    },
+    "SubTitle": {
       "type": "richtext"
     },
     "Description": {
@@ -27,13 +30,64 @@
       "type": "media",
       "multiple": false
     },
-    "SubTitle": {
+    "SubTitle1": {
       "type": "richtext"
     },
-    "SubDescription": {
+    "SubDescription1": {
       "type": "richtext"
     },
     "Image1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "OurDevelopmentProcessTitle": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessDescription": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SubTitle2": {
+      "type": "richtext"
+    },
+    "SubDescription2": {
+      "type": "richtext"
+    },
+    "Image2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ContactUsTitle": {
+      "type": "richtext"
+    },
+    "ContactNo": {
+      "type": "biginteger"
+    },
+    "WhatsAppNo": {
+      "type": "biginteger"
+    },
+    "ContactUsImage": {
       "allowedTypes": [
         "images",
         "files",

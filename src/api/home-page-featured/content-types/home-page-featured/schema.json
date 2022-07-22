@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_page_featureds",
+  "info": {
+    "singularName": "home-page-featured",
+    "pluralName": "home-page-featureds",
+    "displayName": "Home Page Featured"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

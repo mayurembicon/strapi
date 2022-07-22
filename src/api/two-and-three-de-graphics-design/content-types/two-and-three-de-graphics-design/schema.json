@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "two_and_three_de_graphics_designs",
+  "info": {
+    "singularName": "two-and-three-de-graphics-design",
+    "pluralName": "two-and-three-de-graphics-designs",
+    "displayName": "Two And Three De Graphics Design",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "SubTitle": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SubTitle1": {
+      "type": "richtext"
+    },
+    "SubDescription1": {
+      "type": "richtext"
+    },
+    "Image1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

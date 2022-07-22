@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "research_and_designing_processes",
+  "info": {
+    "singularName": "research-and-designing-process",
+    "pluralName": "research-and-designing-processes",
+    "displayName": "Research & Designing Process"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mobile_game_development_tools_and_technologies",
+  "info": {
+    "singularName": "mobile-game-development-tools-and-technology",
+    "pluralName": "mobile-game-development-tools-and-technologies",
+    "displayName": "Mobile Game Development Tools And Technology"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

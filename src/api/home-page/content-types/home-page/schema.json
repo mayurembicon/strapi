@@ -1,0 +1,76 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeroSectionTitle": {
+      "type": "richtext"
+    },
+    "HeroSectionDescription": {
+      "type": "richtext"
+    },
+    "HeroSectionImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "WeAreGrowTitle": {
+      "type": "richtext"
+    },
+    "WeAreGrowDescription": {
+      "type": "richtext"
+    },
+    "WeAreGrowImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "DownloadOurGameTitle": {
+      "type": "richtext"
+    },
+    "DownloadOurGameDescription": {
+      "type": "richtext"
+    },
+    "DownloadOurGamePlayStoreUrl": {
+      "type": "richtext"
+    },
+    "DownloadOurGameIOSStoreUrl": {
+      "type": "richtext"
+    },
+    "DownloadOurGameImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "WeAreGrowSubTitle": {
+      "type": "richtext"
+    }
+  }
+}

@@ -4,33 +4,24 @@
   "info": {
     "singularName": "contact-us",
     "pluralName": "contact-uses",
-    "displayName": "Hybrid Contact Us",
-    "description": ""
+    "displayName": "ContactUs"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
-      "type": "richtext"
+    "HrDepartMentContactNo": {
+      "type": "biginteger"
     },
-    "Image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+    "OfficeNo": {
+      "type": "biginteger"
     },
-    "ContactNo": {
-      "type": "integer"
+    "HrEmail": {
+      "type": "email"
     },
-    "WhatsappNo": {
-      "type": "integer"
+    "HelpEmail": {
+      "type": "email"
     }
   }
 }

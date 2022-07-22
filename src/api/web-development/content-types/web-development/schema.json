@@ -14,6 +14,9 @@
     "Title": {
       "type": "richtext"
     },
+    "SubTitle": {
+      "type": "richtext"
+    },
     "Description": {
       "type": "richtext"
     },
@@ -27,13 +30,29 @@
       "type": "media",
       "multiple": false
     },
-    "SubTitle": {
+    "ContactUsTitle": {
       "type": "richtext"
     },
-    "SubDescripation": {
+    "ContactUsDesciption": {
       "type": "richtext"
     },
-    "Image1": {
+    "ContactUsImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "OurDevelopmentProcessTitle": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessDescription": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessImage": {
       "allowedTypes": [
         "images",
         "files",

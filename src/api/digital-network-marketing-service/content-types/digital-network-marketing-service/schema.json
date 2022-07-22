@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "digital_network_marketing_services",
+  "info": {
+    "singularName": "digital-network-marketing-service",
+    "pluralName": "digital-network-marketing-services",
+    "displayName": "Digital Network Marketing Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

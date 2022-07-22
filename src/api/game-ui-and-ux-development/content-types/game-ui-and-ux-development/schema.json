@@ -4,7 +4,7 @@
   "info": {
     "singularName": "game-ui-and-ux-development",
     "pluralName": "game-ui-and-ux-developments",
-    "displayName": "Game UI & UX Development",
+    "displayName": "Game Ui & Ux Development",
     "description": ""
   },
   "options": {
@@ -15,7 +15,7 @@
     "Title": {
       "type": "richtext"
     },
-    "Description": {
+    "SubTitle": {
       "type": "richtext"
     },
     "Image": {
@@ -29,30 +29,19 @@
         "audios"
       ]
     },
+    "Description": {
+      "type": "richtext"
+    },
     "SubTitle1": {
       "type": "richtext"
     },
-    "SubDescripation1": {
+    "SubDescription1": {
       "type": "richtext"
-    },
-    "Image1": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "YoutubeUrl": {
-      "type": "text"
     },
     "SubTitle2": {
       "type": "richtext"
     },
-    "SubDescripation2": {
+    "SubDescription2": {
       "type": "richtext"
     },
     "Image2": {
@@ -65,6 +54,21 @@
         "videos",
         "audios"
       ]
+    },
+    "ContactUsTitle": {
+      "type": "richtext"
+    },
+    "ContactUsDescription": {
+      "type": "richtext"
+    },
+    "ContactNo": {
+      "type": "biginteger"
+    },
+    "WhatsappNo": {
+      "type": "biginteger"
+    },
+    "YoutubeUrl": {
+      "type": "richtext"
     }
   }
 }

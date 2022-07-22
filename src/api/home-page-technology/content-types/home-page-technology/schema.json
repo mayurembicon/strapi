@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_page_technologies",
+  "info": {
+    "singularName": "home-page-technology",
+    "pluralName": "home-page-technologies",
+    "displayName": "Home Page Technology"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

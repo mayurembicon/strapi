@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ios_app_development_our_key_expertises",
+  "info": {
+    "singularName": "ios-app-development-our-key-expertise",
+    "pluralName": "ios-app-development-our-key-expertises",
+    "displayName": "IOS App Development Our Key Expertise"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -17,7 +17,7 @@
     "SubTitle": {
       "type": "richtext"
     },
-    "Descripation": {
+    "Description": {
       "type": "richtext"
     },
     "Image": {

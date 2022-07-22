@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_page_our_creative_works",
+  "info": {
+    "singularName": "home-page-our-creative-work",
+    "pluralName": "home-page-our-creative-works",
+    "displayName": "Home Page Our Creative Work",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "SubTitle": {
+      "type": "richtext"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "PlayStoreUrl": {
+      "type": "richtext"
+    },
+    "IosStoreUrl": {
+      "type": "richtext"
+    }
+  }
+}

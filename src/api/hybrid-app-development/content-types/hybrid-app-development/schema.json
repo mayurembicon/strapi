@@ -12,7 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Descipation": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
       "type": "richtext"
     },
     "Image": {
@@ -26,21 +29,79 @@
         "audios"
       ]
     },
-    "SubTitle": {
+    "SubTitle1": {
       "type": "richtext"
     },
-    "SubDescipation": {
+    "SubDescription1": {
       "type": "richtext"
     },
     "Image1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
+      ]
+    },
+    "SubTitle2": {
+      "type": "richtext"
+    },
+    "SubDescription2": {
+      "type": "richtext"
+    },
+    "Image2": {
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "OurDevelopmentProcessTitle": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessDescription": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ContactTitle": {
+      "type": "richtext"
+    },
+    "ContactUsImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ContactNo": {
+      "type": "biginteger"
+    },
+    "WhatsappNo": {
+      "type": "biginteger"
+    },
+    "CallUs": {
+      "type": "biginteger"
     }
   }
 }

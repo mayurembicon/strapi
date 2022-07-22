@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vr_development_section_2s",
+  "info": {
+    "singularName": "vr-development-section-2",
+    "pluralName": "vr-development-section-2s",
+    "displayName": "VR Development Section 2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

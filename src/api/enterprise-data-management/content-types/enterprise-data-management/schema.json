@@ -14,10 +14,35 @@
     "Title": {
       "type": "richtext"
     },
-    "Descripation": {
+    "SubTitle": {
+      "type": "richtext"
+    },
+    "Description": {
       "type": "richtext"
     },
     "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SubTitle1": {
+      "type": "richtext"
+    },
+    "SubDescription1": {
+      "type": "richtext"
+    },
+    "ContactNo": {
+      "type": "biginteger"
+    },
+    "WhatsappNo": {
+      "type": "biginteger"
+    },
+    "Image1": {
       "allowedTypes": [
         "images",
         "files",

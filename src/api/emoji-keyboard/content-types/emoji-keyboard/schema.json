@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "emoji_keyboards",
+  "info": {
+    "singularName": "emoji-keyboard",
+    "pluralName": "emoji-keyboards",
+    "displayName": "Emoji Keyboard "
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "PlayStoreUrl": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Image1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

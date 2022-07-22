@@ -4,7 +4,8 @@
   "info": {
     "singularName": "mobile-app-development",
     "pluralName": "mobile-app-developments",
-    "displayName": "Mobile App Development"
+    "displayName": "Mobile App Development",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,24 +15,48 @@
     "Title": {
       "type": "richtext"
     },
-    "Descipation": {
+    "SubTitle": {
+      "type": "richtext"
+    },
+    "Description": {
       "type": "richtext"
     },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
+      ]
+    },
+    "SubTitle1": {
+      "type": "richtext"
+    },
+    "SubDescription1": {
+      "type": "richtext"
+    },
+    "YourDreamDescipation": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessTitle": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessDescription": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessImage": {
       "type": "media",
-      "multiple": false
-    },
-    "SubTitle": {
-      "type": "richtext"
-    },
-    "SubDescipation": {
-      "type": "richtext"
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }

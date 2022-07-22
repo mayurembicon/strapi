@@ -4,25 +4,27 @@
   "info": {
     "singularName": "research-and-designing-technology",
     "pluralName": "research-and-designing-technologies",
-    "displayName": "Research & Designing Technology"
+    "displayName": "Research & Designing Technology",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
-      "type": "richtext"
-    },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "Title": {
+      "type": "richtext"
     }
   }
 }

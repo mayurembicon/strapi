@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_visualization_development_process_we_follows",
+  "info": {
+    "singularName": "data-visualization-development-process-we-follow",
+    "pluralName": "data-visualization-development-process-we-follows",
+    "displayName": "Data Visualization Development Process We Follow"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

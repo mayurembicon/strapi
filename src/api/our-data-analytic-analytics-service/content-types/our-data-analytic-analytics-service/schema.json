@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_data_analytic_analytics_services",
+  "info": {
+    "singularName": "our-data-analytic-analytics-service",
+    "pluralName": "our-data-analytic-analytics-services",
+    "displayName": "Our Data Analytic Analytics Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

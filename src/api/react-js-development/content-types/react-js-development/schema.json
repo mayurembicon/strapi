@@ -35,7 +35,7 @@
     "SubTitle1": {
       "type": "richtext"
     },
-    "SubDescripation1": {
+    "SubDesciption1": {
       "type": "richtext"
     },
     "Image1": {
@@ -52,10 +52,57 @@
     "SubTitle2": {
       "type": "richtext"
     },
-    "SubDescripation2": {
+    "SubDescription2": {
       "type": "richtext"
     },
     "Image2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SubTitle3": {
+      "type": "richtext"
+    },
+    "SubDescription3": {
+      "type": "richtext"
+    },
+    "Image3": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ContactUsTitle": {
+      "type": "richtext"
+    },
+    "ContactUsImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "OurDevelopmentProcessTitle": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessDescription": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessImage": {
       "allowedTypes": [
         "images",
         "files",

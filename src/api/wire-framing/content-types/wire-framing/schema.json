@@ -14,6 +14,9 @@
     "Title": {
       "type": "richtext"
     },
+    "SubTitle": {
+      "type": "richtext"
+    },
     "Description": {
       "type": "richtext"
     },
@@ -30,7 +33,7 @@
     "SubTitle1": {
       "type": "richtext"
     },
-    "SubDescipation1": {
+    "SubDescription1": {
       "type": "richtext"
     },
     "Image1": {

@@ -13,10 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "Title": {
-      "type": "richtext",
-      "required": true
+      "type": "richtext"
     },
-    "Description": {
+    "SubTitle": {
       "type": "richtext"
     },
     "Image": {
@@ -30,10 +29,10 @@
         "audios"
       ]
     },
-    "SubTitle": {
+    "SubTitle1": {
       "type": "richtext"
     },
-    "SubDescription": {
+    "SubDescription1": {
       "type": "richtext"
     },
     "SubTitle2": {
@@ -43,14 +42,46 @@
       "type": "richtext"
     },
     "Image2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
+      ]
+    },
+    "YourDreamDesciption": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessTitle": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessDescription": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessImage": {
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "OurDevelopmentProcessImage1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }

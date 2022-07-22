@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "search_engine_optimization_digital_marketing_services",
+  "info": {
+    "singularName": "search-engine-optimization-digital-marketing-service",
+    "pluralName": "search-engine-optimization-digital-marketing-services",
+    "displayName": "Search Engine Optimization Digital Marketing Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -4,13 +4,23 @@
   "info": {
     "singularName": "ui-and-ux-development-quality-work",
     "pluralName": "ui-and-ux-development-quality-works",
-    "displayName": "UI & UX Development Quality Work"
+    "displayName": "UI & UX Development Quality Work",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "SubTitle": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
     "Image": {
       "allowedTypes": [
         "images",
@@ -19,7 +29,7 @@
         "audios"
       ],
       "type": "media",
-      "multiple": true
+      "multiple": false
     }
   }
 }

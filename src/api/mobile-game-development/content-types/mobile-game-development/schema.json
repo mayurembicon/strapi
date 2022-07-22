@@ -4,7 +4,8 @@
   "info": {
     "singularName": "mobile-game-development",
     "pluralName": "mobile-game-developments",
-    "displayName": "Mobile Game Development"
+    "displayName": "Mobile Game Development",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,10 +15,50 @@
     "Title": {
       "type": "richtext"
     },
+    "SubTitle": {
+      "type": "richtext"
+    },
     "Description": {
       "type": "richtext"
     },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "WeAreGrowTitle": {
+      "type": "richtext"
+    },
+    "WeAreGrowSubTitle": {
+      "type": "richtext"
+    },
+    "WeAreGrowDescription": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessTitle": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessDescription": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "OurDevelopmentProcessImage1": {
       "allowedTypes": [
         "images",
         "files",

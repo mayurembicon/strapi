@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "react_native_development_section_2s",
+  "info": {
+    "singularName": "react-native-development-section-2",
+    "pluralName": "react-native-development-section-2s",
+    "displayName": "React Native App Development Section 2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

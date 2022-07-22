@@ -4,7 +4,8 @@
   "info": {
     "singularName": "react-native-development",
     "pluralName": "react-native-developments",
-    "displayName": "React Native Development"
+    "displayName": "React Native App Development",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,34 +15,96 @@
     "Title": {
       "type": "richtext"
     },
-    "Descipation": {
-      "type": "richtext"
-    },
-    "Image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
     "SubTitle": {
       "type": "richtext"
     },
-    "SubDescipation": {
+    "Description": {
       "type": "richtext"
     },
-    "Image1": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
+      ]
+    },
+    "SubTitle1": {
+      "type": "richtext"
+    },
+    "SubDescription": {
+      "type": "richtext"
+    },
+    "Image1": {
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SutTitle2": {
+      "type": "richtext"
+    },
+    "SubDescription2": {
+      "type": "richtext"
+    },
+    "CallUs": {
+      "type": "biginteger"
+    },
+    "Image2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "OurDevelopmentProcessTitle": {
+      "type": "richtext"
+    },
+    "OurDevelopmentProcessDescription": {
+      "type": "richtext"
+    },
+    "ContactUsTitle": {
+      "type": "richtext"
+    },
+    "ContactNo": {
+      "type": "biginteger"
+    },
+    "WhatsappNo": {
+      "type": "biginteger"
+    },
+    "ContactUsImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "OurDevelopmentProcessImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }

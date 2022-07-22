@@ -12,123 +12,83 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "weAreHiringTitle": {
+    "HomePageOurService": {
       "type": "richtext"
     },
-    "WeAreHiringDescription": {
+    "HomePageOurCreativeWork": {
       "type": "richtext"
     },
-    "LifeAtGrowDescription": {
+    "HomePageLatestBlogTitle": {
       "type": "richtext"
     },
-    "ProcessOfInterViewDescription": {
+    "HomePageLatestBlogDescription": {
       "type": "richtext"
     },
-    "TransparencyDescription": {
+    "CareerPageWeAreHiringHeroes": {
       "type": "richtext"
     },
-    "FestivalAtGrowDescription": {
+    "CareerPageProcessOfInterview": {
+      "type": "richtext"
+    },
+    "CareerPageWeAreHiring": {
+      "type": "richtext"
+    },
+    "AboutUsWhoWeAre": {
+      "type": "richtext"
+    },
+    "AboutUsTransparencyAndEthics": {
+      "type": "richtext"
+    },
+    "AboutUsOurTeamOfTrailblazers": {
+      "type": "richtext"
+    },
+    "AboutUsFestivalAtGrow": {
       "type": "richtext"
     },
     "ContactUsTitle": {
       "type": "richtext"
     },
-    "ContactUsDescription": {
+    "ContactUsDesciption": {
       "type": "richtext"
     },
-    "WeCanDoDescription": {
+    "MobileAppDevelopmentWhatWeCanDo": {
       "type": "richtext"
     },
-    "YourDreamsTitle": {
+    "IOSAppDevelopmentOurKeyExpertise": {
       "type": "richtext"
     },
-    "YourDreamsDescription": {
+    "HybridAppDevelopmentOurKeyExpertise": {
       "type": "richtext"
     },
-    "AndroidAppDreamsTitle": {
+    "HybridAppDevelopmentIndustriesWeServe": {
       "type": "richtext"
     },
-    "AndroidAppDreamsDescription": {
+    "ResearchAndDesigningWhatWeCanDo": {
       "type": "richtext"
     },
-    "OurKeyExpertiseDescription": {
+    "ResearchAndDesigningOurCreativeProtfolio": {
       "type": "richtext"
     },
-    "IndustriesDescription": {
+    "UIAndUXDevelopmentWhyChooseGrowSolution": {
       "type": "richtext"
     },
-    "ReactNativeKeyExpertiseDescription": {
+    "UIAndUXDevelopmentQualityWork": {
       "type": "richtext"
     },
-    "DataAnalyticsDescription": {
+    "WireFramingTypesOfWireFraming": {
       "type": "richtext"
     },
-    "BusinessIntelligenceDescription": {
+    "WireFramingDifferentTypesOfWireFraming": {
       "type": "richtext"
     },
-    "EnterpriseDataManagementDescription": {
+    "CareerPageProcessLifeAtGrow": {
       "type": "richtext"
     },
-    "DataVisualizationDescription": {
+    "DigitalNetworkMarketingService": {
       "type": "richtext"
     },
-    "DataVisualizationDevelopmentProcessDescription": {
-      "type": "richtext"
-    },
-    "DataVisualizationIndustriesDescription": {
-      "type": "richtext"
-    },
-    "BusinessIntelligenceKeyExpertiseDescription": {
-      "type": "richtext"
-    },
-    "BusinessIntelligenceDevelopmentProcessDescription": {
-      "type": "richtext"
-    },
-    "BusinessIntelligenceIndustriesWeServeDescription": {
-      "type": "richtext"
-    },
-    "DigitalMarketingExploreServiceDescipation": {
-      "type": "richtext"
-    },
-    "WhyWorkWithUsDescipation": {
-      "type": "richtext"
-    },
-    "AppStoreOptimizationExploreServiceDescipation": {
-      "type": "richtext"
-    },
-    "AppStoreOptimizationWhyWorkWithUsDescipation": {
-      "type": "richtext"
-    },
-    "EmailMarketingExploreServiceDescription": {
-      "type": "richtext"
-    },
-    "EmailMarketingWhyWorkWithUsDescription": {
-      "type": "richtext"
-    },
-    "SearchEngineOptimizationExploreServiceDescription": {
-      "type": "richtext"
-    },
-    "SearchEngineOptimizationWhyWorkWithUsDescription": {
-      "type": "richtext"
-    },
-    "WebDevelopmentProcessDescription": {
-      "type": "richtext"
-    },
-    "ResearchAndDesigningWhatWeCanDoDescription": {
-      "type": "richtext"
-    },
-    "ResearchAndDesigningDevelopmentProcessDescription": {
-      "type": "richtext"
-    },
-    "UIAndUXDevelopmentGrowSolutionDescription": {
-      "type": "richtext"
-    },
-    "DifferentTypesOfWireFramingDescription": {
-      "type": "richtext"
-    },
-    "GameUIAndUXDevelopmentProcessDescription": {
+    "DigitalNetworkMarketingWhyWorkWithUs": {
       "type": "richtext"
     }
-
   }
 }

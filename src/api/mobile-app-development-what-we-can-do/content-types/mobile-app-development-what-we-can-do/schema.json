@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mobile_app_development_what_we_can_dos",
+  "info": {
+    "singularName": "mobile-app-development-what-we-can-do",
+    "pluralName": "mobile-app-development-what-we-can-dos",
+    "displayName": "Mobile App Development What We Can Do"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

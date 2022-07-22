@@ -14,6 +14,9 @@
     "Title": {
       "type": "richtext"
     },
+    "SubTitle": {
+      "type": "richtext"
+    },
     "Description": {
       "type": "richtext"
     },
@@ -27,13 +30,51 @@
       "type": "media",
       "multiple": false
     },
-    "SubTitle": {
+    "SubTitle1": {
       "type": "richtext"
     },
-    "SubDescription": {
+    "SubDescription1": {
       "type": "richtext"
     },
     "Image1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SubTitle2": {
+      "type": "richtext"
+    },
+    "SubDescription2": {
+      "type": "richtext"
+    },
+    "CallUs": {
+      "type": "biginteger"
+    },
+    "Image2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ContactUsTitle": {
+      "type": "richtext"
+    },
+    "ConactNo": {
+      "type": "biginteger"
+    },
+    "WhatsAppNo": {
+      "type": "biginteger"
+    },
+    "ContactUsImage": {
       "allowedTypes": [
         "images",
         "files",

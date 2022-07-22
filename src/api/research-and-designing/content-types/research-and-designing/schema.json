@@ -4,7 +4,7 @@
   "info": {
     "singularName": "research-and-designing",
     "pluralName": "research-and-designings",
-    "displayName": "Research & Designing"
+    "displayName": "Research & Designing "
   },
   "options": {
     "draftAndPublish": true
@@ -12,6 +12,9 @@
   "pluginOptions": {},
   "attributes": {
     "Title": {
+      "type": "richtext"
+    },
+    "SubTitle": {
       "type": "richtext"
     },
     "Description": {
@@ -30,7 +33,7 @@
     "SubTitle1": {
       "type": "richtext"
     },
-    "SubDescripation1": {
+    "SubDescription1": {
       "type": "richtext"
     },
     "Image1": {
@@ -42,6 +45,21 @@
       ],
       "type": "media",
       "multiple": false
+    },
+    "YourDreamDesciption": {
+      "type": "richtext"
+    },
+    "ContactUsTitle": {
+      "type": "richtext"
+    },
+    "ContactUsDescription": {
+      "type": "richtext"
+    },
+    "ContactNo": {
+      "type": "biginteger"
+    },
+    "WhatsappNo": {
+      "type": "biginteger"
     }
   }
 }
